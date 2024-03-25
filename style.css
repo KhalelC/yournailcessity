@@ -1,0 +1,64 @@
+/* Meta */
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Englebert';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*main page*/
+nav{
+    display:flex;
+    height: 100px;
+    background-color: #dbcfc3;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    height:200%;
+    padding-left: 5%;
+}
+
+.nav-links ul li{
+   display: inline-block;
+   padding:0 60px 0 0px;
+   font-size: 100%;
+   color:#fff;
+}
+
+.nail_tech_container_o{
+    display:flex;
+}
+
+.nail_tech_container_i1{
+    position:absolute;
+    width:50%;
+    margin-left:25%;
+    margin-top: 10%;
+}
+
+.nail_tech_container_i2{
+    position:absolute;
+    width:50%;
+    margin-left:35%;
+    margin-top: 20%;
+    z-index: -1;
+}
+
+.nail_tech_container_i1 img{
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.nail_tech_container_i2 img{
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20%;
+}
