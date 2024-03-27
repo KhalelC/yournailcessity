@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Englebert:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!--CSS link-->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -22,8 +25,9 @@
     <section class="main">
         <nav>
             <img src="images/logo.png">
-        
-            <div class="nav-links">
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li> Home </li>
                     <li> Services </li>
@@ -43,5 +47,19 @@
             </div>
         </div>
     </section>
+    <!--JavaScript-->
+    <script>
+        var navLinks=document.getElementById('navLinks');
+
+        function showMenu(){
+            navLinks.style.width='170px'
+        }
+
+        function hideMenu(){
+            navLinks.style.width='0px'
+        }
+
+
+    </script>
 </body>
 </html>
