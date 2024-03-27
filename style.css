@@ -39,17 +39,16 @@ nav img{
 .nav-links{
     flex:1;
     text-align: right;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .nav-links ul li{
    display: inline-block;
-   padding: 8px 12px;
    font-size: 120%;
    font-weight: 600;
    color:#fff;
-   transition:0.5s;
    cursor: pointer;
+   padding:20px;
 }
 
 .nav-links ul li:hover{
@@ -93,7 +92,7 @@ nav img{
 }
 
 /*mobile*/
-@media(max-width:900px){
+@media(max-width:1000px){
     
     nav .fa{
         display: block;
@@ -104,20 +103,21 @@ nav img{
 
     .nav-links{
         position:fixed;
+        display: block;
         top:0;
         right:0;
         text-align: left;
         width:0px;
         background: #d5d5d5;
         box-shadow: 0 0 20px 0 rgba(0,0,0,0.4);
-        height: 110vh;
+        height: 900px;
         z-index: 3;
-        transition: 1s;
+        transition: 0.5s;
         margin-right:0px;
     }
 
     .nav-links ul li{
-        padding: 25px;
+        margin-left: 15px;
     }
 
     .nail_tech_container_i1{
